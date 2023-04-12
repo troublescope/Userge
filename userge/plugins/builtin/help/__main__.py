@@ -297,7 +297,7 @@ if userge.has_bot:
                       cur_pos: str,
                       func: Callable[[str], str],
                       data: Union[List[str], Dict[str, Any]],
-                      rows: int = 3):
+                      rows: int = 4):
         buttons = [
             InlineKeyboardButton(
                 func(x),
